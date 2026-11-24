@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PentePula — salão de beleza kids para crianças e adultos.">
+  <title>PentePula | Salão de Beleza Kids</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-ribbon">
+    <span>✨ Um momento de beleza feito para sorrir!</span>
+    <span class="ribbon-note">Crianças & adultos</span>
+  </div>
+
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="PentePula - início">
+        <img src="assets/logo/logo.png" alt="PentePula - Salão de Beleza Kids">
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#profissionais">Profissionais</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#agendamento" class="nav-cta">Agendar ✨</a>
+      </nav>
+      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="confetti confetti-1">✦</div>
+      <div class="confetti confetti-2">♥</div>
+      <div class="confetti confetti-3">✿</div>
+      <div class="confetti confetti-4">✦</div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">🌈 Beleza com diversão</span>
+          <h1>Um cantinho onde <span>beleza</span> e diversão se encontram!</h1>
+          <p>Cuidados especiais para crianças, com profissionais preparados e um ambiente alegre para deixar cada visita ainda mais gostosa.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#agendamento">Quero agendar <span>→</span></a>
+            <a class="btn btn-light" href="#servicos">Ver serviços</a>
+          </div>
+          <div class="mini-trust">
+            <div><strong>💜</strong><span>Atendimento acolhedor</span></div>
+            <div><strong>🩵</strong><span>Experiência kids</span></div>
+            <div><strong>💛</strong><span>Momentos especiais</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Ilustração do PentePula">
+          <div class="blob blob-yellow"></div>
+          <div class="blob blob-teal"></div>
+          <div class="bubble bubble-coral">✂️</div>
+          <div class="bubble bubble-lilac">♥</div>
+          <div class="bubble bubble-yellow">✦</div>
+          <img src="assets/logo/logo.png" alt="Logo PentePula" class="hero-logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">💇 Nossos cuidados</span>
+          <h2>Serviços para <span>todo mundo</span></h2>
+          <p>Escolha o cuidado que combina com você ou com o seu pequeno.</p>
+        </div>
+        <div id="services-grid" class="card-grid"></div>
+      </div>
+    </section>
+
+    <section class="section professionals" id="profissionais">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">🪄 Nosso time</span>
+          <h2>Quem vai cuidar de <span>você</span></h2>
+          <p>Profissionais preparados para transformar o momento do salão em uma experiência leve e divertida.</p>
+        </div>
+        <div id="professionals-grid" class="professional-grid"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-box">
+        <div class="about-decoration">✿</div>
+        <div class="about-copy">
+          <span class="eyebrow">💖 Sobre o PentePula</span>
+          <h2>Beleza que vira <span>memória boa</span>.</h2>
+          <p>O PentePula nasceu para tornar o cuidado com a beleza mais divertido e confortável. Aqui, cada criança pode se sentir especial, enquanto os adultos também encontram serviços pensados para eles.</p>
+          <div class="about-pills">
+            <span>🌸 Ambiente acolhedor</span>
+            <span>🎀 Atendimento kids</span>
+            <span>✨ Carinho em cada detalhe</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="sparkle">✦</div>
+          <strong>Seu momento começa aqui!</strong>
+          <p>Agende seu horário e venha viver uma experiência PentePula.</p>
+          <a href="#agendamento" class="btn btn-secondary">Agendar agora</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="agendamento">
+      <div class="container booking-wrap">
+        <div class="section-heading left">
+          <span class="eyebrow">📅 Agendamento</span>
+          <h2>Reserve seu <span>momento</span></h2>
+          <p>Preencha os dados abaixo. A confirmação é exibida na hora.</p>
+        </div>
+        <div class="booking-card">
+          <div class="steps" aria-label="Etapas do agendamento">
+            <div class="step active"><b>1</b><span>Serviço</span></div>
+            <div class="step"><b>2</b><span>Profissional</span></div>
+            <div class="step"><b>3</b><span>Data</span></div>
+            <div class="step"><b>4</b><span>Seus dados</span></div>
+          </div>
+          <form id="booking-form">
+            <div class="form-grid">
+              <label>Serviço
+                <select id="service" required></select>
+              </label>
+              <label>Profissional
+                <select id="professional" required></select>
+              </label>
+              <label>Data
+                <input id="date" type="date" required>
+              </label>
+              <label>Horário
+                <select id="time" required>
+                  <option value="">Selecione</option>
+                  <option>09:00</option><option>10:00</option><option>11:00</option>
+                  <option>13:00</option><option>14:00</option><option>15:00</option>
+                  <option>16:00</option><option>17:00</option><option>18:00</option>
+                </select>
+              </label>
+              <label>Nome
+                <input id="name" type="text" placeholder="Seu nome" required>
+              </label>
+              <label>WhatsApp
+                <input id="whatsapp" type="tel" placeholder="(11) 99999-9999" required>
+              </label>
+              <label class="full">E-mail <span>(opcional)</span>
+                <input id="email" type="email" placeholder="voce@email.com">
+              </label>
+            </div>
+            <button class="btn btn-primary submit-btn" type="submit">Confirmar agendamento ✨</button>
+          </form>
+          <div id="confirmation" class="confirmation" hidden></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo/logo.png" alt="PentePula" class="footer-logo">
+        <p>Salão de beleza kids feito para criar momentos felizes.</p>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <p>📱 WhatsApp: (11) 99999-9999</p>
+        <p>📸 Instagram: @pentepula</p>
+        <p>📍 Rua Exemplo, 123 — São Paulo/SP</p>
+      </div>
+      <div>
+        <h3>Atalhos</h3>
+        <a href="#servicos">Serviços</a>
+        <a href="#profissionais">Profissionais</a>
+        <a href="#agendamento">Agendar horário</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 PentePula. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
